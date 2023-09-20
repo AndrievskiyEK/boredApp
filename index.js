@@ -7,7 +7,7 @@ const BackGrounBodyNode = document.body.style;
 
 //обработчик событий
 goActivityBtnNode.addEventListener('click', function(){
-    fetch("http://www.boredapi.com/api/activity/")
+    fetch("https://www.boredapi.com/api/activity/")
         .then(response => {
             if (response.ok){
                 return response.json();
