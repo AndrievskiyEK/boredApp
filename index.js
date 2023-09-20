@@ -17,7 +17,8 @@ goActivityBtnNode.addEventListener('click', function(){
         .then(res => {
             const todo = res.activity;
             titleActivityNode.innerText = "Ура, теперь не скучно 🔥";
-            BackGrounBodyNode.backgroundColor = "green";
+            BackGrounBodyNode.background = 
+            "linear-gradient(180deg, rgba(0, 176, 28, 0.2) 24.48%, rgba(255, 255, 255, 0) 100%)";
             activityTextNode.innerText = todo;         
     })
 })
